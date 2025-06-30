@@ -1,29 +1,21 @@
 # 🎯 Python Number Guessing Game
 
-A simple and interactive command‑line number guessing game written in Python.
+A simple and fun command-line game where you guess a randomly chosen number between 1 and 100.
 
 ---
 
-## 📦 Features
+## 📌 Features
 
-- Randomly selects a secret number within a defined range  
-- Prompts the player for guesses and provides feedback (“Too high!”, “Too low!”)  
-- Tracks the number of attempts taken  
-- Includes input validation to avoid crashes on non-integer entries  
-- Optionally supports difficulty levels or replay mode  
+- Randomly picks a secret number between 1 and 100  
+- Validates input to ensure only integers are accepted  
+- Provides feedback: “Too low. Try again.” or “Too high. Try again.”  
+- Tracks and displays how many attempts were needed
 
 ---
 
 ## ⚙️ Requirements
 
 - Python 3.x  
-- No external libraries required (uses standard library only)
+- No external libraries required (uses only the standard library)
 
 ---
-
-## 🚀 Installation & Setup
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/guessing-game-python.git
-   cd guessing-game-python
